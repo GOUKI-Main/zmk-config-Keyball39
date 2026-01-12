@@ -174,6 +174,9 @@ To add new ZMK modules or drivers:
   - One half may have incomplete LED installation; configuration supports both
 - **Matrix**: 4 rows × 6 columns per half, col2row diodes
 - **Split Communication**: Wireless (Bluetooth) between halves
+  - **Left half**: BLE Central (primary, USB host connection)
+  - **Right half**: BLE Peripheral (secondary)
+  - USB cable should be connected to **left half**
 - **Bluetooth Profiles**: Supports 5 BLE profiles + USB (6 devices total)
 
 ## Migration Guide: PMW3360 → PMW3610
