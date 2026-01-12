@@ -85,8 +85,8 @@
             label = "SYM";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT                  &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                       &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
-&trans           &trans        &trans        &trans        &trans                       &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
+&bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3                 &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SQT
+&trans           &trans        &trans        &trans        &bt BT_SEL 4                 &kp UNDERSCORE  &kp PLUS       &trans            &trans                &kp NON_US_BACKSLASH
 &trans           &trans        &trans        &trans        &trans       &trans  &trans  &trans                                                                 &trans
             >;
         };
@@ -94,10 +94,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &none                   &none   &none  &none  &none  &none
-&kp F5  &kp F6   &kp F7   &kp F8   &none                   &none   &none  &none  &none  &none
-&kp F9  &kp F10  &kp F11  &kp F12  &none                   &none   &none  &none  &none  &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                       &trans
+&kp F1           &kp F2           &kp F3   &kp F4           &rgb_ug RGB_TOG                     &none   &none  &none  &none  &none
+&kp F5           &kp F6           &kp F7   &kp F8           &rgb_ug RGB_EFF                     &none   &none  &none  &none  &none
+&kp F9           &kp F10          &kp F11  &kp F12          &rgb_ug RGB_BRI                     &none   &none  &none  &none  &none
+&rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &trans   &rgb_ug RGB_BRD  &trans           &trans  &trans  &trans                       &trans
             >;
         };
 
