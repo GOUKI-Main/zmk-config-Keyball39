@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: kumamuk-git
       url-base: https://github.com/kumamuk-git
-    - name: inorichi
-      url-base: https://github.com/inorichi
+    - name: KOHSUK
+      url-base: https://github.com/KOHSUK
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -13,8 +13,8 @@ manifest:
       import: app/west.yml
     # PMW3360 ドライバー（現在使用中）
     - name: zmk-pmw3360-driver
-      remote: inorichi
-      revision: main
+      remote: KOHSUK
+      revision: pmw3360
     # PMW3610 ドライバー（将来の移行用 - 現在は使用していません）
     # 移行時はwest.ymlでこちらを有効化し、overlay内のcompatibleとconf設定を変更してください
     # - name: zmk-pmw3610-driver
