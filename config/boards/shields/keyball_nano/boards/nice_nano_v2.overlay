@@ -1,4 +1,12 @@
 /*
+ * Copyright (c) 2020 ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/led/led.h>
+
+/*
  * RGB Underglow Configuration for nice!nano v2
  * LED Count: 24 per half (48 total)
  * Pin: P0.06 (SPI3 MOSI)
